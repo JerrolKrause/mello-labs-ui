@@ -10,6 +10,7 @@ yarn-error.log
 
 # VS Code
 .vscode/
+.vs/
 
 # Windows
 Thumbs.db
