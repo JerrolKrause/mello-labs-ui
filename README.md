@@ -1,1 +1,7 @@
-# `Mello Labs UI` - UI and Design for Mello Labs projects
+## Installation
+
+To install this library, run:
+
+```bash
+$ npm install @mello-labs/ui --save
+```
