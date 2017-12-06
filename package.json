@@ -1,6 +1,6 @@
 {
   "name": "@mello-labs/ui",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "UI and Design Stylesheet for Mello Labs projects",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.js",
