@@ -19,7 +19,7 @@ button{cursor:pointer;}
         &:hover:not([disabled]){color:#fff;@include gradient($ld-interact-lt,$ld-primary);border:1px solid $ld-primary;}
     }
     &.btn-interact-active{color:#fff;@include gradient($ld-interact-lt,$ld-primary);border:1px solid $ld-primary;}
-
+   
     &.btn-interact-mello{color:#fff;@include gradient(#083053,#478cc6);border:1px solid $ld-interact;}
 
     &.btn-icon{
@@ -47,10 +47,7 @@ button{cursor:pointer;}
         &.active{background-image: linear-gradient(to top, #ad0000 0%, #ff4343 100%);color:#fff;border:1px solid red;}
     }
 
-
-    &.btn-ld-primary{}
-    &.btn-ld-primary-outline{}
-    &.btn-ld-primary-inverse{}
+    &.active{background-image: linear-gradient(to top, #ad0000 0%, #ff4343 100%);color:#fff;border:1px solid red;}
 
     &.btn-waiting{
         .fa{display:none;}
