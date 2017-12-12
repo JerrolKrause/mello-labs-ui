@@ -1,5 +1,6 @@
 // Global branded styling. App specific styling should NOT go in this file
-label{cursor:pointer;display:block;
+label{
+    cursor:pointer;display:block;
     &.icon{
         position:relative;
         &:before{font-family: 'FontAwesome';position: absolute;left: 8px;content: "\f0b0";cursor:default;top: 50%;transform: translateY(-50%); z-index: 4;}
@@ -23,6 +24,7 @@ label{cursor:pointer;display:block;
 }
 
 .form-control{
+    cursor:pointer;
     &:hover, &:focus, &:active{border-color:$ld-interact;}
     &.form-control-over{position: relative;z-index: 3;border-top-right-radius:0;border-bottom-right-radius:0;border-color: transparent;}
     &.form-control-under{position: absolute;top: 0;left: 0;z-index: 2;
