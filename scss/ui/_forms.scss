@@ -24,7 +24,7 @@ label{
 }
 
 .form-control{
-    cursor:pointer;
+    &[type='checkbox']{cursor:pointer;}
     &:hover, &:focus, &:active{border-color:$ld-interact;}
     &.form-control-over{position: relative;z-index: 3;border-top-right-radius:0;border-bottom-right-radius:0;border-color: transparent;}
     &.form-control-under{position: absolute;top: 0;left: 0;z-index: 2;

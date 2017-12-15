@@ -1,6 +1,9 @@
 // Global branded styling. App specific styling should NOT go in this file
 .nav-tabs{
-    .nav-link.active{}
+    &.nav-tabs-sm{
+      font-size: 0.8rem;    
+      .nav-link{padding: 0.25em 1em;}
+    }
 }
 
 .tab-content{
