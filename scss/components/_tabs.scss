@@ -10,7 +10,7 @@
 .tab-content{
     .card{border-top-left-radius:0;border-top-right-radius:0;border-top:0;}
     &.tab-content-visible{position:relative;
-      .tab-pane{display:block;opacity:0;position:absolute;top: 0px;left: 0px;}
-      .tab-pane.active{opacity:1;position:initial;}
+      .tab-pane{display:block;opacity:0;position:absolute;top: 0px;left: 0px;z-index:-1;}
+      .tab-pane.active{opacity:1;position:initial;position:relative;z-index:1;}
     }
 }
