@@ -12,10 +12,10 @@ button{cursor:pointer;}
     &.btn-mello{background: $mello-interact; border-color: $mello-interact;color:#fff;}
     &.btn-ld{background: $ld-interact; border-color: $ld-interact;color:#fff;}
 
-    &.btn-interact{color:#fff;@include gradient($ld-interact-lt,$ld-primary);border:1px solid $ld-primary; text-shadow: 1px 1px 2px rgba(0,0,0,.25);
+    &.btn-interact, &.btn-primary{color:#fff;@include gradient($ld-interact-lt,$ld-primary);border:1px solid $ld-primary; text-shadow: 1px 1px 2px rgba(0,0,0,.25);
         &:hover:not([disabled]){background:$ld-interact;border:1px solid $ld-interact;box-shadow: initial;text-shadow:none;}
     }
-    &.btn-interact-outline{color:$ld-interact;background:#fff;border:1px solid $ld-interact;box-shadow: initial;
+    &.btn-interact-outline, &.btn-secondary{color:$ld-interact;background:#fff;border:1px solid $ld-interact;box-shadow: initial;
         &:hover:not([disabled]){color:#fff;@include gradient($ld-interact-lt,$ld-primary);border:1px solid $ld-primary;}
     }
     &.btn-interact-active{color:#fff;@include gradient($ld-interact-lt,$ld-primary);border:1px solid $ld-primary;}

@@ -35,8 +35,8 @@ label{
 .input-icon {float: right;margin-right: 8px;margin-top: -21px;position: relative;z-index: 2;}
 .datepicker .dropdown-menu {top: 2rem !important;}
 .form-check{margin:0;}
-.form-check-label{position:relative;top:9px;}
-.form-group{
+.form-check-label{position:relative;top:7px;}
+.form-group{margin-bottom:0.5rem;
     label{margin-bottom:0;}
     &.required {
         input:not([disabled]), select:not([disabled]), textarea:not([disabled]) {background-color: #ffffe8;}
