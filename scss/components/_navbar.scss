@@ -59,6 +59,7 @@ header {
             }
 
             .open {
+                .nav-item a.nav-link{color:#000;display: block;width: 100%;}
                 .navbar-mobile {
                     left: 0px;
                     @include transition();
@@ -74,8 +75,8 @@ header {
             }
 
             .navbar-nav .nav-link.active { background-color: #f7f7f9; }
-
-            .dropdown { border-top: 1px solid #ccc; }
+            a.logout{display:block;}
+            .dropdown { border-top: 1px solid #ccc;display:block;width:100%; }
             .dropdown-toggle { display: none; }
             .dropdown-menu { display: block; border: 0; float: none; float: none; position: initial; width: 100%; }
 

@@ -47,7 +47,7 @@ button{cursor:pointer;}
         &.active{background-image: linear-gradient(to top, #ad0000 0%, #ff4343 100%);color:#fff;border:1px solid red;}
     }
 
-    &.active{background-image: linear-gradient(to top, #ad0000 0%, #ff4343 100%);color:#fff;border:1px solid red;}
+    &.active, &.enabled{background-image: linear-gradient(to top, #ad0000 0%, #ff4343 100%);color:#fff;border:1px solid red;}
 
     &.btn-waiting{
         .fa{display:none;}

@@ -4,9 +4,9 @@
       font-size: 0.8rem;    
       .nav-link{padding: 0.25em 1em;}
     }
-   
 }
 ngb-tabset{
+   &.nav-tabs-sm .nav-link{padding: 0.25rem .5rem;font-size: 0.85rem;}
    & > .tab-content{
    & > .tab-pane{border: 1px solid #ddd; border-top: 0;box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.1);}
       & > .card{border-top-left-radius:0;border-top-right-radius:0;border-top:0;}

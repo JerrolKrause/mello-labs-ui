@@ -1,6 +1,6 @@
 {
   "name": "@mello-labs/ui",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "UI and Design Stylesheet for Mello Labs projects",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.js",
@@ -19,7 +19,7 @@
   "scripts": {},
   "dependencies": {},
   "peerDependencies": {
-    "bootstrap": "4.0.0-alpha.6"
+    "bootstrap": "4.0.0"
   },
   "devDependencies": {}
 }
